@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Receipt</string>
+    <string name="app_name">Receipt Exercise</string>
 
     <!-- Adapter -->
     <string name="adapter_receipt">Receipt \u0020</string>

@@ -62,8 +62,8 @@ public class Receipt {
     public String getReceiptItemsDisplay(){
         StringBuilder b = new StringBuilder();
         for(ReceiptItem item: getReceiptItems()){
-            b.append(item.getItem().getName() + "\n"
-                    + item.getQuantity() + " qty. " + item.getTotalWithTaxes()
+            b.append(item.getQuantity() + " "
+                    + item.getItem().getName() + ": " + item.getTotalWithTaxes()
                     + "\n");
         }
 
