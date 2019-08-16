@@ -24,7 +24,8 @@ public class Receipt {
         subtotal = new BigDecimal(0.00);
         for(ReceiptItem receiptItem: getReceiptItems()){
             subtotal = subtotal.add(receiptItem.getItem().getPrice().multiply(new BigDecimal(receiptItem.getQuantity())));
-        }return subtotal;
+        }
+        return subtotal;
     }
 
     public BigDecimal getSalesTaxTotal() {

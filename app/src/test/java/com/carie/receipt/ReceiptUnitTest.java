@@ -63,7 +63,7 @@ public class ReceiptUnitTest {
 
         assertEquals(receipt2.getReceiptItems().size(), 2);
 
-        assertEquals(receipt2.getGrandTaxTotal(), receipt2Tax);
+        assertEquals(receipt2.getGrandTaxTotal(), receipt2Tax); //TODO glad to have unit test! however, is there a chance your calculation for sales tax on the vespa is incorrect?
         assertEquals(receipt2.getGrandTotal(), receipt2GrandTotal);
     }
 

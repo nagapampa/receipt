@@ -50,7 +50,7 @@ public class ReceiptItem {
                 salesTax = getItem().getPrice().multiply(SALES_TAX);
                 break;
             default:
-                salesTax = new BigDecimal(0.0);
+                salesTax = new BigDecimal(0.00);
         }
         return salesTax.multiply(new BigDecimal(getQuantity())).setScale(2, ROUNDING_MODE);
     }
