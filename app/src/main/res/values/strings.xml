@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Receipt</string>
+
+    <!-- Adapter -->
+    <string name="adapter_receipt">Receipt \u0020</string>
+    <string name="adapter_subtotal">Subtotal: \u0020</string>
+    <string name="adapter_taxes">Taxes: \u0020</string>
+    <string name="adapter_grand_total">Grand Total: \u0020</string>
+</resources>
